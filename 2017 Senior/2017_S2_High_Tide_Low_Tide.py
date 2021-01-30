@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 from collections import deque
 
 n = int(input())

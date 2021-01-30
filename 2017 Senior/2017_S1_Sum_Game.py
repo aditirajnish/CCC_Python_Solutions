@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 number_of_games = int(input())
 
 swift_runs = list(map(int, input().split()))

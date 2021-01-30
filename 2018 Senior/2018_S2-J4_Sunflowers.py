@@ -1,3 +1,6 @@
+
+# 15/15 points
+
 from sys import stdin
 
 n = int(stdin.readline())

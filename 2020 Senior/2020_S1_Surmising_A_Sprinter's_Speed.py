@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 n = int(input())
 times_and_positions = []
 

@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 number_of_villages = int(input())
 
 villages = []

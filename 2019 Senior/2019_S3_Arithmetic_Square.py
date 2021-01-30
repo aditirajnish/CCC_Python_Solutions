@@ -1,4 +1,6 @@
 
+# 7/15 points
+
 def check_int(value):
     try:
         return int(value)

@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 def get_primes(max_num):
     # True -> is prime, False -> is not prime
     isPrime = [True for _ in range(2, max_num)]

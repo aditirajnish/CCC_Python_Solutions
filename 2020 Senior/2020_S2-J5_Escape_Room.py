@@ -1,14 +1,5 @@
 
-# AC (15/15), stores cell numbers and cells it can travel to in dictionary
-
-"""
-sample input (outputs yes):
-3
-4
-3 10 8 14
-1 11 12 12
-6 2 3 9
-"""
+# 15/15 points
 
 def main():
     rows, cols = int(input()), int(input())
@@ -16,18 +7,8 @@ def main():
     end_value = rows * cols
 
     # key: number in cell
-    # value: list of cell numbers to travel to
+    # value: list of cell numbers that can travel to the key cell
     cells = {}
-    # cells = {3: [1, 9],
-    #         10: [2],
-    #          8: [3],
-    #         14: [4],
-    #          1: [2],
-    #         11: [4],
-    #         12: [6, 8],
-    #          6: [3],
-    #          2: [6],
-    #          9: [16]}
 
     for r in range(1, rows + 1):
         row = list(map(int, input().split()))

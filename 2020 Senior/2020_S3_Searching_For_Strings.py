@@ -1,3 +1,6 @@
+
+# 7/15 points
+
 from sys import stdin
 
 def main(n, h):

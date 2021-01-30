@@ -1,4 +1,6 @@
 
+# 15/15 points
+
 flips = input()
 
 horizontal = flips.count("H")
